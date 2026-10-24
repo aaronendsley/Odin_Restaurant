@@ -1,0 +1,12 @@
+{
+  "name": "restaurant-",
+  "version": "1.0.0",
+  "description": "Odin Project Restaurant Project",
+  "license": "ISC",
+  "author": "Aaron Endsley",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
