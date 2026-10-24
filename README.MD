@@ -1,5 +1,7 @@
 # Odin Restaurant
 
+AI Disclosure : ALL images and Copy were written or created with AI. The Code was written by me. 
+
 Below is the text from the Curriculum: 
 
 
