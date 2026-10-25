@@ -16,10 +16,10 @@ h6 {
 
 header {
     width: 100%;
-    height: 200px;
+    height: 268px;
     background-color: #7C0C09;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-bottom: #FDBA35 solid 5px;
@@ -131,6 +131,13 @@ h3 {
 
 #location {}
 
+
+@media (min-width: 550px) {
+    header {
+        height: 200px;
+        flex-direction: row;
+    }
+}
 
 @media (min-width:1000px) {
     #two-column {
