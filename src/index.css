@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #7C0C09;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #FDBA35 solid 5px;
+
+}
+
+header>div {
+    height: 200px;
+}
+
+#Logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 10px;
+    align-self: center;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+header nav button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #FDBA35;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#content {
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #FDF1D9;
+}
+
+#content h2 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#content h3 {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#content p {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about {
+    margin: 0% auto;
+    height: fit-content;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #7C0C09;
+    display: flex;
+    flex-direction: column;
+    color: #FDF1D9;
+}
+
+#about h2,
+h3 {
+    color: #FDBA35
+}
+
+
+
+#about img {
+    width: 99%;
+    display: block;
+    margin: 10px auto;
+    align-self: center;
+}
+
+#two-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan {
+    background-color: #FDF1D9;
+    color: #7C0C09;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 20px;
+    border-top: #FDBA35 solid 5px;
+    border-bottom: #FDBA35 solid 5px;
+}
+
+
+
+#menu {}
+
+#location {}
+
+
+@media (min-width:1000px) {
+    #two-column {
+        flex-direction: row;
+    }
+}
