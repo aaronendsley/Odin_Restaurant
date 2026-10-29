@@ -1,5 +1,6 @@
 import "./index.css";
 import createAbout from "./about.js";
+import createMenu from './menu.js';
 import { changeTab } from "./helper.js";
 
 const content = document.querySelector("#content");
@@ -18,6 +19,7 @@ aboutButton.addEventListener('click', function (event) {
 
 menuButton.addEventListener('click', function (event) {
     event.preventDefault();
+    changeTab(createMenu, content);
 })
 
 locationButton.addEventListener('click', function (event) {
