@@ -191,7 +191,42 @@ h3 {
 
 
 
-#location {}
+#location {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#location h2 {
+    color: #7C0C09;
+}
+
+#location-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#location-address {
+    flex: 3;
+}
+
+#location-address p {
+    color: #241211;
+    font-size: 1.6rem;
+}
+
+#location-map {
+    flex: 2;
+}
+
+#location-map img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
 
 
 @media (min-width: 550px) {
@@ -207,6 +242,10 @@ h3 {
 
 @media (min-width:1000px) {
     #two-column {
+        flex-direction: row;
+    }
+
+    #location-content {
         flex-direction: row;
     }
 }

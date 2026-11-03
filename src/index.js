@@ -10,7 +10,7 @@ const locationButton = document.getElementById("location-button");
 aboutButton.style.cursor = "pointer";
 menuButton.style.cursor = "pointer";
 locationButton.style.cursor = "pointer";
-content.append(createAbout());
+// content.append(createAbout());
 
 aboutButton.addEventListener('click', function (event) {
     event.preventDefault();
