@@ -1,6 +1,7 @@
 import "./index.css";
 import createAbout from "./about.js";
 import createMenu from './menu.js';
+import createLocation from "./location.js";
 import { changeTab } from "./helper.js";
 
 const content = document.querySelector("#content");
@@ -10,7 +11,7 @@ const locationButton = document.getElementById("location-button");
 aboutButton.style.cursor = "pointer";
 menuButton.style.cursor = "pointer";
 locationButton.style.cursor = "pointer";
-// content.append(createAbout());
+content.append(createAbout());
 
 aboutButton.addEventListener('click', function (event) {
     event.preventDefault();
@@ -24,6 +25,7 @@ menuButton.addEventListener('click', function (event) {
 
 locationButton.addEventListener('click', function (event) {
     event.preventDefault();
+    changeTab(createLocation, content);
 })
 
 
